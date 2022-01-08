@@ -18,7 +18,7 @@ It has several routes that return status code 200 and some data: `/health`, `/he
 ## Response from Kiran Reddy for short technical assignment.
 ## Steps taken
 git clone https://github.com/KiranReddy782/go-web-server.git
-git build -t server:latest .
+docker build -t server:latest .
 docker run -p 3030:3030 server:latest
 localhost:3030/keyword
 ## Response for /keyword
